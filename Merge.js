@@ -6,6 +6,6 @@ let arr1 = [
     { id: "abdc4051", name: "ab" },
     { id: "abdc4052", name: "abc" }
   ];
-  let new_array = arr1.map((item, i) => Object.assign({}, item, arr2[i]));
-
+  let new_array = [];
+  new_array.push({...arr1,...arr2});
   console.log(new_array);
