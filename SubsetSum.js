@@ -14,7 +14,7 @@ function ArrayAdditionI(arr) {
         var temp = sets[j].concat(arr[i]);
         sets.push(temp);
         var s = temp.reduce(function(p, c) { return p + c; });
-        if (s === sum) { return "true"; }
+        if (s === sum) { return sets }
       }
     }
     

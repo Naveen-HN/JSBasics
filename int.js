@@ -1,4 +1,7 @@
-let x = 10;
-let ten = '10';
+let num = 183638;
 
-console.log(x === ten);
+let rev = num.toString().split('').reverse().join('');
+//Math.sign(rev);
+rev_int = parseInt(rev);
+console.log(typeof(rev_int));
+console.log(rev_int);

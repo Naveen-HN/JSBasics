@@ -1,6 +1,6 @@
 //1. To reverse a given integer 
 let num = 1234;
-console.log(num.toString().split('').reverse().join('')*Math.sign(num));
+console.log(parseInt(num.toString().split('').reverse().join('')*Math.sign(num)));
 // To reverser an array
 let arr = [1,5,7,4,2];
 
